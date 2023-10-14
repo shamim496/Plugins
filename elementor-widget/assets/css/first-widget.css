@@ -1,0 +1,43 @@
+.bdt-post-list-wrapper {
+
+}
+
+.bdt-post-list-img {
+	width: 90px;
+}
+
+.bdt-post-list-content{
+	width: 80%;
+	box-sizing: border-box;
+}
+
+.bdt-post-list-title{
+	margin: auto;
+	margin-bottom: 8px;
+	font-family: "Barlow" Barlow;
+	font-size: 24px;
+	line-height: 33.6px;
+	font-weight: 700;
+	vertical-align: baseline;
+}
+
+.date{
+	margin-right: 15px;
+}
+
+.bdt-post-list-button .meta{
+	position: relative;
+	padding: 0px 20px;
+}
+.bdt-post-list-button .meta::before{
+	position: absolute;
+	content: '';
+	background-color: #999999;
+	top: 50%;
+	left: 0;
+	height:4px;
+	width: 4px;
+	border-radius: 50%;
+
+}
+
